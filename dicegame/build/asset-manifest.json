@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe13c285.css",
+    "main.js": "/static/js/main.e524856b.js",
+    "static/media/logo.png": "/static/media/logo.bd05682dee8c7239c56c.png",
+    "static/media/dice-blue-6.svg": "/static/media/dice-blue-6.85b4d41e50e02a9871ee83122ea18f57.svg",
+    "static/media/dice-red-6.svg": "/static/media/dice-red-6.3ee98ff0915e6c2e2fc9a18ae0370889.svg",
+    "static/media/dice-blue-5.svg": "/static/media/dice-blue-5.ec1687caff61059f28db276ca1afac6d.svg",
+    "static/media/dice-red-5.svg": "/static/media/dice-red-5.8adaa7efc7d21520a0e632e6b150d45b.svg",
+    "static/media/dice-blue-4.svg": "/static/media/dice-blue-4.e11e6c54b853a4edf0e0bd8fd1adfa56.svg",
+    "static/media/dice-red-4.svg": "/static/media/dice-red-4.ce79418087cb4f0ca66b3dfb4bef24e9.svg",
+    "static/media/dice-blue-3.svg": "/static/media/dice-blue-3.067ae2288184ec154b4749d69655f676.svg",
+    "static/media/dice-red-3.svg": "/static/media/dice-red-3.3297d6b8872382cd4f2c8c2ec6819721.svg",
+    "static/media/dice-blue-2.svg": "/static/media/dice-blue-2.f95a94601613a7c965b73a0c833bc9e3.svg",
+    "static/media/dice-red-2.svg": "/static/media/dice-red-2.03dd6934c7b98ca48b635730a2a9d408.svg",
+    "static/media/dice-blue-1.svg": "/static/media/dice-blue-1.46ea1848f55d80a1686590bb76593ce0.svg",
+    "static/media/dice-red-1.svg": "/static/media/dice-red-1.a9a39d36fe2cb6671ddaca9f404b608d.svg",
+    "index.html": "/index.html",
+    "main.fe13c285.css.map": "/static/css/main.fe13c285.css.map",
+    "main.e524856b.js.map": "/static/js/main.e524856b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe13c285.css",
+    "static/js/main.e524856b.js"
+  ]
+}

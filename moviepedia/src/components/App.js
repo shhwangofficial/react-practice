@@ -25,7 +25,7 @@ function App() {
     if (options.offset === 0) {
       setItems(reviews);
     } else {
-      setItems([...items, ...reviews]);
+      setItems((currentItems) => [...currentItems, ...reviews]);
     }
     setOffset(options.offset + options.limit);
     setHasNext(paging.hasNext);
@@ -46,9 +46,9 @@ function App() {
         <button onClick={handleBestClick}>베스트순</button>
       </div>
       <ReviewList items={sortedItems} onDelete={handleDelete} />
-      <button disabled={!hasNext} onClick={handleLoadMore}>
+      { hasNext && <button onClick={handleLoadMore}>
         더 보기
-      </button>
+      </button> }
     </div>
   );
 }

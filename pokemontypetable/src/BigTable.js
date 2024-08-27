@@ -1,4 +1,5 @@
 import BigTableRow from './BigTableRow.js'
+import './type.css';
 
 function BigTable() {
     const types = ['normal', 'fire', 'water', 'grass', 'elec', 'ice', 'fight', 'poison', 'ground', 'flying','esper', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy' ];
@@ -8,7 +9,7 @@ function BigTable() {
             <thead>
                 <tr>
                 { types.map((String, type) => (
-                    <th>{types[type]}</th>
+                    <th className={types[type]}>{types[type]}</th>
                     ))
                 }
                 </tr>
@@ -17,8 +18,7 @@ function BigTable() {
                 { types.map((String, type) => (
                     <BigTableRow attackType={type}/>
                     ))
-                }
-                
+                }      
             </tbody>
         </table>
     )
